@@ -77,5 +77,7 @@ public class GettingFollowersListWithSelenium {
             e.printStackTrace();
         }
 
+        driver.quit();
+
     }
 }
