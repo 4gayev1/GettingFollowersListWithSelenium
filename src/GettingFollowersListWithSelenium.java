@@ -26,8 +26,8 @@ public class GettingFollowersListWithSelenium {
         WebElement passwordInput =driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[2]/div/label/input"));
         WebElement submitBtn =driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button"));
 
-        usernameInput.sendKeys("4gayev1");
-        passwordInput.sendKeys("menim21yasimvar");
+        usernameInput.sendKeys("XXXX");
+        passwordInput.sendKeys("XXXX");
         submitBtn.click();
 
         Thread.sleep(3000);
