@@ -10,36 +10,6 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="file://C:/selenium/chromedriver_win32" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://C:/selenium/chromedriver_win32" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="file://C:/selenium/geckodriver-v0.33.0-win-aarch64" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://C:/selenium/geckodriver-v0.33.0-win-aarch64" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="file://C:/selenium/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://C:/selenium/lib" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
           <root url="jar://C:/selenium/selenium-api-4.10.0.jar!/" />
           <root url="jar://C:/selenium/selenium-chrome-driver-4.10.0.jar!/" />
           <root url="jar://C:/selenium/selenium-chromium-driver-4.10.0.jar!/" />
@@ -78,6 +48,28 @@
           <root url="jar://C:/selenium/selenium-safari-driver-4.10.0-sources.jar!/" />
           <root url="jar://C:/selenium/selenium-support-4.10.0-sources.jar!/" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.17.0/selenium-support-4.17.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Downloads/selenium-java-4.17.0" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/Downloads/selenium-java-4.17.0" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Downloads/selenium-java-4.17.0" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Downloads/selenium-java-4.17.0" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>
