@@ -12,7 +12,7 @@ public class GettingFollowersListWithSelenium {
 
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "C:/selenium/chromedriver_win32/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "out/production/GettingFollowersListWithSelenium2/chromedriver");
         WebDriver driver=new ChromeDriver();
 
         driver.get("https://www.instagram.com/");
@@ -32,6 +32,7 @@ public class GettingFollowersListWithSelenium {
 
         Thread.sleep(3000);
 
+System.out.println("alma");
 
 
         WebElement notNow = driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div/div/div/div"));
