@@ -33,6 +33,7 @@ public class GettingFollowersListWithSelenium {
         Thread.sleep(3000);
 
 
+
         WebElement notNow = driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div/div/div/div"));
         notNow.click();
 
